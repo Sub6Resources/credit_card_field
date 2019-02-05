@@ -10,7 +10,7 @@ class CreditCardFormField extends StatelessWidget {
     this.validator,
     this.obscureText = false,
     this.enabled = true,
-  }): super(key: key);
+  }) : super(key: key);
 
   final Key key;
   final TextEditingController controller;
@@ -42,7 +42,7 @@ class CVVFormField extends StatelessWidget {
     this.validator,
     this.obscureText = false,
     this.enabled = true,
-  }): super(key: key);
+  }) : super(key: key);
 
   final Key key;
   final TextEditingController controller;
@@ -67,14 +67,14 @@ class CVVFormField extends StatelessWidget {
 }
 
 class ExpirationFormField extends StatefulWidget {
-    //TODO make controller optional
+  //TODO make controller optional
   ExpirationFormField({
     this.key,
     @required this.controller,
     this.decoration,
     this.obscureText = false,
     this.enabled = true,
-  }): super(key: key);
+  }) : super(key: key);
 
   final Key key;
   final TextEditingController controller;
