@@ -4,4 +4,4 @@
 
 Flutter credit card, cvv, and expiration form fields. Expiration form field is automatically formatted.
 
-[![screenshot](credit_card_field.gif)]
+![screenshot](credit_card_field.gif)
