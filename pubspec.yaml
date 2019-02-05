@@ -1,6 +1,6 @@
 name: credit_card_field
-description: Flutter credit card and expiration form fields
-version: 1.0.0
+description: Flutter credit card, cvv, and expiration form fields. Automatically formats expiration dates.
+version: 1.0.1
 author: Matthew Whitaker <sub6resources@gmail.com>
 homepage: https://github.com/Sub6Resources/credit_card_field
 
